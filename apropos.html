@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" >
+    <!--  <link rel="stylesheet" href="../css/style.css" >-->
+    <title>a propos</title>
+</head>
+<body>
+    <h1>A propos</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non cupiditate magnam at doloribus mollitia voluptates vel quod labore sed fuga perferendis, quidem <a href="#">ipsum dolor sit,</a> amet harum! Quaerat vel sit tempora?</p>
+
+    <h2>2 titres</h2>
+    <p>Lorem <a href="#">ipsum dolor sit,</a> amet consectetur adipisicing elit. Inventore quo omnis modi vel eveniet, mollitia odio praesentium aliquam exercitationem, rerum harum voluptatibus commodi consequuntur. Expedita eveniet nostrum laborum libero ipsam?</p>
+
+
+
+    <h3>3 titres</h3>
+    <p>Lorem <a href="#">ipsum dolor sit,</a> amet consectetur adipisicing elit. Inventore quo omnis modi vel eveniet, mollitia odio praesentium aliquam exercitationem, rerum harum voluptatibus commodi consequuntur. Expedita eveniet nostrum laborum libero ipsam?</p>
+
+
+
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis ab blanditiis nulla cupiditate officia reprehenderit dolores, culpa qui, id maiores cumque dolorem placeat commodi dolore impedit temporibus, a iste adipisci?</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis ab blanditiis nulla cupiditate officia reprehenderit dolores, culpa qui, id maiores cumque dolorem placeat commodi dolore impedit temporibus, a iste adipisci?</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis ab blanditiis nulla cupiditate officia reprehenderit dolores, culpa qui, id maiores cumque dolorem placeat commodi dolore impedit temporibus, a iste adipisci?</p>
+    </div>
+
+
+    <div class="divbleu">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque vitae fugiat perspiciatis consectetur esse suscipit voluptatem iure, architecto cum. Doloribus alias sapiente quia itaque ex maiores excepturi quaerat autem voluptatum.</p>
+
+    </div>
+
+    <div class="testlien">
+
+        <a href="#">liens 1</a>
+        <a href="#">liens 2</a>
+        <a href="#">liens 3</a>
+        <a href="#">liens 4</a>
+
+
+    </div>
+
+
+
+
+    <form method="post" action="#" enctype="multipart/form-data" >
+
+        <label for="nom">Votre nom</label>
+        <input type="text" name="nom"  placeholder="nom"  id="nom">
+        <br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" placeholder="email">
+        <br>
+        <label for="age">Votre age</label>
+        <input type="number" id="age" name="age" placeholder="votre âge">
+        <br>
+        <label for="password">mot de passe</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <!-- fichier -->
+        <label for="fichier">fichier</label>
+        <input type="file" name="fichier" id="fichier">
+
+        <input type="hidden" name="fichiercacher" id="fichiercacher" value="123">
+        <br />
+        <!-- Homme / femme -->
+        <label for="homme">Homme</label>
+        <input type="checkbox" name="homme" id="homme">
+
+        <label for="femme">femme</label>
+        <input type="checkbox" name="femme" id="femme" checked>
+        <br />
+         <!-- type de contrat -->
+        <label for="cdd">CDD</label>
+        <input type="radio" id="cdd" value="cdd" name="contrat">
+
+        <label for="cdi">CDI</label>
+        <input type="radio" id="cdi" value="cdi" name="contrat">
+        <!-- Salaire -->
+        <label for="salaire">salaire</label>
+        <select id="salaire"  name="salaire">
+            <option value="1000">1000</option>
+            <option value="1500">1500</option>
+            <option value="2000">2000</option>
+        </select>
+        <br />
+        <!-- Champ Message -->
+        <label for="message">Votre message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+        <br />
+        <!-- fieldset identité -->
+        <fieldset>
+            <legend>Votre identité</legend>
+            <label for="nom">nom</label>
+            <input type="text" name="nom" id="nom">
+            <label for="prenom">Prénom:</label>
+            <input type="text" name="prenom" id="prenom">
+            <label for="age">age</label>
+            <input type="number" name="age" id="age">
+        </fieldset>
+        <br />
+        <!--listes de courses-->
+        <label for="listes">listes de courses</label>
+         <select multiple name="course" id="course">
+                <option value="bagette">baguette magique</option>
+                <option value="chapeau">chapeau</option>
+                <option value="animal">animal</option>
+         </select>
+         <br />
+         <input type="submit" value="Envoyez de formulaire">
+         <input type="reset" value="supprimer">
+    </form>
+    <br>
+    <h3>Video</h3>
+    <video controls>
+    <source src="media/Generique-Game-Of-Thrones-HD-YouTube-1.mp4" type="video/mp4">
+    <source src="media/Generique-Game-Of-Thrones.ogg" type="video/ogg">
+    <source src="media/Generique-Game Of-Thrones.webm" type="video/webm">
+    </video>
+
+
+    <h3>son</h3>
+    <audio controls>
+        <source src="media/harry-potter.ogg" type="audio/ogg">
+        <source src="media/harry-potter.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+
+
+    <div class="listpuexemple">
+    <ul>
+        <li>élements 1</li>
+        <li>élements 2</li>
+        <li>élements 3</li>
+        <li>élements 4</li>
+    </ul>
+    </div>
+
+    <div class="listpucemplecicle">
+        <ul>
+            <li>élements 1</li>
+            <li>élements 2</li>
+            <li>élements 3</li>
+            <li>élements 4</li>
+        </ul>
+    </div>
+
+
+    <div class="listnumerotexemple">
+        <ol>
+            <li>element 1</li>
+            <li>element 2</li>
+            <li>element 3</li>
+            <li>element 4</li>
+        </ol>
+    </div>
+
+    <div class="listnumeroteexpleroman">
+        <ol>
+            <li>liste numéroté 1</li>
+            <li>liste numéroté 2</li>
+            <li>liste numéroté 3</li>
+            <li>liste numéroté 3</li>
+        </ol>
+    </div>
+
+        <div class="listesgamesofthrones">
+            <ul>
+                <li>Daenerys Targaryen</li>
+                <li> Viserys Targaryen </li>
+                <li>Rhaegar Targaryen</li>
+            </ul>
+
+    </div>
+
+      <!-- video downloader helper
+      https://chrome.google.com/webstore/detail/video-downloadhelper/lmjnegcaeklhafolokijcfjliaokphfk?hl=fr -->
+
+
+            <!-- ColorZilla
+      https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=fr -->
+
+      <!-- Web Developer
+
+      https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=fr
+
+      -->
+
+
+</body>
+</html>
